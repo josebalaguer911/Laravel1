@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel curso balaguer
+                    Laravel curso Jose Balaguer
                 </div>
 
                 <div class="links">
