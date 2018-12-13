@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Api;
+namespace CursoBalaguer\Http\Controllers\Api;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use CursoBalaguer\Http\Controllers\Controller;
 
 class CategoriaController extends Controller
 {

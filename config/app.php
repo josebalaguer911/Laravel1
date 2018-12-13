@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Caracas',
 
     /*
     |--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        CursoBalaguer\Providers\AppServiceProvider::class,
+        CursoBalaguer\Providers\AuthServiceProvider::class,
+        // CursoBalaguer\Providers\BroadcastServiceProvider::class,
+        CursoBalaguer\Providers\EventServiceProvider::class,
+        CursoBalaguer\Providers\RouteServiceProvider::class,
 
     ],
 
